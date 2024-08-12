@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Perusahaan YG Entertainment</title>
+    </head>
+    <body>
+        <h1>YG Entertainment</h1>
+        <hr>
+        <h3>2024 YG Global Audition - Jakarta</h3>
+        <p style="font-size: large;font-family: calibri; text-align: left;">Category : Vocal, Rap, Dance, Appearance</p>
+        <p>Gender : All</p>
+        <p>Age : 2006 ~ 2013</p>
+        <p>Application restricted period : Yearly</p>
+        <p>Maximum number of Applied times in period : Once</p>
+        <p style="font-size: large;font-family: calibri; text-align: left;">[Date/Venue] June 29th(SAT) 11AM / Indonesia Convetion Exhibiton</p>
+        <p style="font-size: large;font-family: calibri; text-align: left;"><b>[How to apply (Choose one only)]</b></p> 
+        <ol>
+            <li>Pre-Registration : By June 23rd *Individual confirmation e-mail will be sent on June 24th</li>
+            <li>Walk-in : Sign up in person on the audition day, 11AM-1PM</li>
+        </ol>               
+        <form action="Registrasi.php" method="post">
+            <fieldset>
+                <legend>Registration</legend>
+                <table style="width: 100%; text-align: center;" border="1" cellpanding="5">
+                    <tbody><tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" name="Name" placeholder="Your Name..."></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" name="Email" placeholder="Your Email..."></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td><label><input type="radio" name="Gender" value="Male">Male</label>
+                        <label><input type="radio" name="Gender" value="Female">Female</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Category</label></td>
+                        <td><select name="Category">
+                            <option value="islam">Vocal</option>
+                            <option value="kristen">Rap</option>
+                            <option value="Hindu">Dance</option>
+                            <option value="Budha">Appearance</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Adress</label></td>
+                        <td><textarea name="Adress" placeholder="Your Adress..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><input type="submit" name="submit" value="Apply"></th>
+                    </tr>
+                </tbody></table>
+            </fieldset>
+        </form>
+        <hr>
+    <div>Dwi Buana Nursallyna &copy; 2024</div>
+    </body>
+    </html>
